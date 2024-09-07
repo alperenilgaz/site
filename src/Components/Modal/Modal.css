@@ -1,0 +1,58 @@
+.modal{
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+}
+.modal-container{
+    position: relative;
+    padding: 25px;
+    border-radius: 15px;
+    width: 756px;
+    padding: 35px;
+    box-shadow: 5px 5px 15px rgba(247, 245, 245, 0.4) ;
+    background-color: rgb(207, 207, 207);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+.dark .modal-container
+{
+    background-color: var(--dark-slate);
+    box-shadow: 5px 5px 15px rgba(17, 17, 17, 0.8) 
+}
+.modal-cls-btn{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    
+  
+}
+.modal-cls-btn button{
+    border: none;
+    outline: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--turquoise);
+}
+.modal-title{
+    color: var(--turquoise);
+    font-size: 30px;
+}
+.modal-content
+{
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+.dark .modal-content{
+    color: var(--light-gray);
+}

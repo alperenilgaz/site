@@ -1,0 +1,150 @@
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 30px;
+    margin-top: 100px;
+    font-size: 30px;
+    border: 1px solid var(--turquoise);
+    cursor: pointer;
+ 
+    
+}
+.social-media a{
+    text-decoration: none;
+    color: var(--turquoise);
+}
+.statistics{
+    background-color: var(--turquoise);
+    width: 500px;
+    min-height: 200px;
+    margin: 30px auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+.statistics-title{
+    color: var(--pure-white);
+}
+.statistics-content{
+    width: 100%;
+    background-color: aliceblue;
+    height: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: flex;
+
+}
+.statistics-content .js{
+    background-color: rgb(209, 209, 17);
+    width: 60.38%;
+    height: 15px;
+    border-radius: 15px 0 0 15px;
+}
+.statistics-content .css{
+    background-color: rgb(104, 21, 143);
+    width: 21.33%;
+    height: 15px;
+}
+.statistics-content .html{
+    background-color: rgb(207, 43, 31);
+    width: 12.09%;
+    height: 15px;
+}
+.statistics-content .c{
+    background-color: rgb(83, 83, 83);
+    width: 3.31%;
+    height: 15px;
+}
+.statistics-content .scss{
+    background-color: rgb(230, 52, 253);
+    width: 1.93%;
+    height: 15px;
+}
+.statistics-content .python{
+    background-color: rgb(15, 68, 243);
+    width: 0.98%;
+    border-radius: 0 15px 15px 0;
+    height: 15px;
+}
+
+  
+.percent-languages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    align-items: center;
+    justify-items: start;
+    column-gap: 150px;
+    float: left;
+    margin-top: 20px;
+    
+  }
+  
+  
+.percent-languages p{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.percent-languages span{
+    color: #fff;
+}
+
+.javascript{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.javascript p{
+    background-color: rgb(209, 209, 17);
+}
+.C{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.C p{
+    background-color: rgb(83, 83, 83);
+}
+.CSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.CSS p{
+
+    background-color: rgb(104, 21, 143);
+}
+.SCSS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.SCSS p{
+    background-color: rgb(230, 52, 253);
+}
+.HTML{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.HTML p{
+    background-color: rgb(207, 43, 31);
+}
+.PYTHON{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.PYTHON p{
+
+    background-color: rgb(15, 68, 243);
+}
+
