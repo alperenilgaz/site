@@ -8,7 +8,7 @@ import SocialMedia from "./Components/SocialMedia/SocialMedia.jsx";
 
 
 function App() {
-  const getStoredTheme = localStorage.getItem("theme") || " "
+  const getStoredTheme = localStorage.getItem("theme") || "light"
   const [theme, setTheme] = useState(getStoredTheme)
 
   const changeTheme = (newTheme) => {
