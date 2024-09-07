@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { FaMoon } from "react-icons/fa";
 import { GoSun } from "react-icons/go";
-import Header from "./Components/Header/Header";
-import Card from "./Components/Card/Card";
-import SocialMedia from "./Components/SocialMedia/SocialMedia";
+import Header from "./Components/Header/Header.jsx";
+import Card from "./Components/Card/Card.jsx";
+import SocialMedia from "./Components/SocialMedia/SocialMedia.jsx";
 
 
 

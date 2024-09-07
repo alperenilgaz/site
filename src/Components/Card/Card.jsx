@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 import Data from "./Data/CardData.json"
-import CardItem from './CardItem'
+import CardItem from './CardItem.jsx'
 
 
 

@@ -7,8 +7,8 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import { FiSquare } from "react-icons/fi";
 import { Cursor } from 'react-simple-typewriter';
 import { IoMdArrowDropupCircle } from "react-icons/io";
-import Modal from '../Modal/Modal';
-import { Button, message } from 'antd';
+import Modal from '../Modal/Modal.jsx';
+import {  message } from 'antd';
 
 
 
