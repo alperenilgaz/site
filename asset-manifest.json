@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/alperenilgaz.github.io/site/static/css/main.cb0234ae.css",
-    "main.js": "/alperenilgaz.github.io/site/static/js/main.f5c5039b.js",
-    "index.html": "/alperenilgaz.github.io/site/index.html",
-    "main.cb0234ae.css.map": "/alperenilgaz.github.io/site/static/css/main.cb0234ae.css.map",
-    "main.f5c5039b.js.map": "/alperenilgaz.github.io/site/static/js/main.f5c5039b.js.map"
+    "main.css": "/site/static/css/main.cb0234ae.css",
+    "main.js": "/site/static/js/main.f5c5039b.js",
+    "index.html": "/site/index.html",
+    "main.cb0234ae.css.map": "/site/static/css/main.cb0234ae.css.map",
+    "main.f5c5039b.js.map": "/site/static/js/main.f5c5039b.js.map"
   },
   "entrypoints": [
     "static/css/main.cb0234ae.css",
