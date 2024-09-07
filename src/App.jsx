@@ -5,45 +5,53 @@ import Header from "./Components/Header/Header.jsx";
 import Card from "./Components/Card/Card.jsx";
 import SocialMedia from "./Components/SocialMedia/SocialMedia.jsx";
 
-
-
 function App() {
-  const getStoredTheme = localStorage.getItem("theme") || "light"
-  const [theme, setTheme] = useState(getStoredTheme)
+  // Geçerli bir varsayılan tema belirleyin (boş string yerine "light")
+  const getStoredTheme = localStorage.getItem("theme") || "light";
+  const [theme, setTheme] = useState(getStoredTheme);
 
   const changeTheme = (newTheme) => {
-    const previuosTheme = localStorage.getItem("theme")
-    if(previuosTheme){
-      document.body.classList.remove(previuosTheme)
+    const previousTheme = localStorage.getItem("theme");
+    if (previousTheme) {
+      document.body.classList.remove(previousTheme);
     }
-    if(newTheme){
-      document.body.classList.add(newTheme)
-      localStorage.setItem("theme",newTheme)
+    if (newTheme) {
+      document.body.classList.add(newTheme);
+      localStorage.setItem("theme", newTheme);
     }
-  }
+  };
+
   useEffect(() => {
-    changeTheme(theme)
-  },[theme])
+    changeTheme(theme);
+  }, [theme]);
+
   return (
     <>
-     <div  className="theme-button">
-      <input checked={theme === "dark"} type="checkbox" id="darkmode-toogle" />
-      <label onClick={() => setTheme(theme==="dark" ? "light":'dark')} htmlFor="darkmode-toogle">
-        <div className="moon">
-          <FaMoon />
-        </div>
-        <div className="sun">
-         <GoSun />
-        </div>
-      </label>
-      
-     </div>
+      <div className="theme-button">
+        <input
+          checked={theme === "dark"}
+          type="checkbox"
+          id="darkmode-toggle"
+          readOnly
+        />
+        <label
+          onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+          htmlFor="darkmode-toggle"
+        >
+          <div className="moon">
+            <FaMoon />
+          </div>
+          <div className="sun">
+            <GoSun />
+          </div>
+        </label>
+      </div>
 
-     <div className="content">
-        <Header/>
-        <Card/>
-        <SocialMedia/>
-     </div>
+      <div className="content">
+        <Header />
+        <Card />
+        <SocialMedia />
+      </div>
     </>
   );
 }
